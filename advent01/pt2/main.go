@@ -204,31 +204,18 @@ var nums = []int{
 	1740,
 	1831}
 
-const final = 2020
+const target = 2020
 
 func main() {
-	s := make(map[int]int)
+	// vals := []int{}
 
-	for _, num := range nums {
-		dif := final - num
+	for i := 0; i < len(nums); i++ {
+		/*
+			first := nums[i]
+			second := nums[i+1]
+			third := nums[i+2]
 
-		if s[dif] == dif {
-			fmt.Println("found", s[dif], num)
-			solution := s[dif] * num
-			fmt.Println("solution", solution)
-		}
-		s[num] = num
+			fmt.Println(first, second, third)
+		*/
 	}
-
-	/*
-		for _, v := range s {
-			wantVal := final - v
-			if val, ok := s[wantVal]; ok {
-				eqFinal = append(eqFinal, s[wantVal], val)
-			}
-		}
-		fmt.Println("eqFinal", eqFinal)
-	*/
-
-	// fmt.Println(s)
 }
