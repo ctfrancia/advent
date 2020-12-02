@@ -32,3 +32,7 @@ func main() {
 		fmt.Println("split2", s[1])
 	}
 }
+
+func isValid(rule, letters string) bool {
+
+}
