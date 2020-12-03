@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 var nums = []int{
 	1826,
 	1895,
@@ -204,18 +202,10 @@ var nums = []int{
 	1740,
 	1831}
 
-const target = 2020
+const final = 2020
 
 func main() {
-	// vals := []int{}
+	pt1(nums)
 
-	for i := 0; i < len(nums); i++ {
-		/*
-			first := nums[i]
-			second := nums[i+1]
-			third := nums[i+2]
-
-			fmt.Println(first, second, third)
-		*/
-	}
+	pt2(nums)
 }
