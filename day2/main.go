@@ -2,10 +2,8 @@ package main
 
 import (
 	"bufio"
-	"fmt"
 	"log"
 	"os"
-	"strings"
 )
 
 func main() {
@@ -29,13 +27,7 @@ func main() {
 		txtlines = append(txtlines, scanner.Text())
 	}
 
-	// pt1()
+	pt1(txtlines)
 	// pt2()
 
-	fmt.Printf("txtlines: %T", txtlines)
-	for _, eachline := range txtlines {
-		s := strings.Split(eachline, ":")
-		fmt.Println("split1", s[0])
-		fmt.Println("split2", s[1])
-	}
 }
